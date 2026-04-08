@@ -1,0 +1,63 @@
+# ── Model checkpoints & exports ──────────────────────────────────────────────
+*.pth
+*.pt
+*.onnx
+
+# ── Dataset ───────────────────────────────────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+data/
+datasets/
+crack_segmentation_dataset/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv
+crack_gpu/
+
+# ── Sensitive files ───────────────────────────────────────────────────────────
+.env
+*.env
+secrets.json
+config.json
+credentials.json
+*.key
+*.pem
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+runs/
+outputs/
+
+# ── Extracted dataset folder ──────────────────────────────────────────────────
+crack_segmentation_dataset/
